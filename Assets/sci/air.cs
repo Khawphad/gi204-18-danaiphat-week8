@@ -21,7 +21,7 @@ public class air : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.Mouse1))
         {
             rb.AddForce(transform.forward * enginePower);
         }
